@@ -1,0 +1,114 @@
+html {
+	background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ),url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@font-face {
+  font-family: "Qontra";
+  src: url(fonts/Qontra.otf)
+}
+
+@font-face {
+  font-family: "Prime Regular";
+  src: url("fonts/Prime Regular.otf")
+}
+
+@font-face {
+  font-family: "Prime Light";
+  src: url("fonts/Prime Light.otf")
+}
+
+@font-face {
+  font-family: "HelveticaNeue Bold";
+  src: url("fonts/HelveticaNeue Bold.ttf")
+}
+
+@font-face {
+  font-family: "HelveticaNeue Light";
+  src: url("fonts/HelveticaNeue Light.ttf")
+}
+
+@font-face {
+  font-family: "HelveticaNeue Thin";
+  src: url("fonts/HelveticaNeue Thin.ttf")
+}
+
+@font-face {
+  font-family: "HelveticaNeue Black";
+  src: url("fonts/HelveticaNeue BlackCond.ttf")
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("fonts/HelveticaNeue.ttf")
+}
+
+body {
+	background-color: inherit;
+	font-family: "HelveticaNeue Bold";
+}
+
+div.k-landing-text {
+	text-align: center;
+	color: rgb( 225,225, 255);
+}
+
+div.k-landing-text {
+	margin: 15% 0 0;
+	font-family: "HelveticaNeue Light";
+	font-size: 1.6em;
+}
+
+div.k-landing-text h1 {
+	font-family: "HelveticaNeue Light";
+	text-transform: uppercase;
+	font-size: 104px;	
+	margin: 50px 0 30px;
+}
+
+.k-description {
+	margin: 10px;
+
+}
+
+.k-description {
+	font-family: "HelveticaNeue";
+	font-size: 20px;	
+	margin: 140px 0 0;
+}
+
+.k-description h4 {
+	font-family: "HelveticaNeue Light";
+	font-style: italic;
+    line-height: 1.8em;
+	margin: 10px;
+	opacity: 0.9;
+}
+
+.k-description, .k-description {
+	opacity: 0.94;
+}
+
+
+.k-quote {
+	line-height: 1.4em;
+	opacity: 0.8;
+}
+
+.k-menu-bar {
+	position: absolute;
+	right: 5px;
+	top:5px;
+	font-family: "HelveticaNeue Thin";
+	font-size: 1.2em;
+}
+
+.k-menu-bar, .k-menu-bar a {
+	color: #eee;
+	opacity: 0.9;
+	margin: 5px;
+}
+
